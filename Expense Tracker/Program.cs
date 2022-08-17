@@ -11,7 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 // Licensing
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2VVhiQlFaclxJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdk1iX35dcX1WQWBVV0Y=");
+Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense([SYNCFUSION_LICENSE]);
 
 var app = builder.Build();
 
